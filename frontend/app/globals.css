@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", "system-ui", sans-serif;
+  background-color: #f6f1ed;
+}
+
+body {
+  margin: 0;
+  background-color: #f6f1ed;
+}
+
+::selection {
+  background-color: rgba(201, 165, 106, 0.4);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(22px);
+  box-shadow: 0 24px 45px rgba(30, 27, 24, 0.08);
+}
+
+.matte-button {
+  background: #c9a56a;
+  color: #1e1b18;
+  border-radius: 999px;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.border-glow {
+  position: relative;
+}
+
+.border-glow::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  border: 1px solid rgba(201, 165, 106, 0.4);
+  filter: blur(0.5px);
+  opacity: 0.8;
+}

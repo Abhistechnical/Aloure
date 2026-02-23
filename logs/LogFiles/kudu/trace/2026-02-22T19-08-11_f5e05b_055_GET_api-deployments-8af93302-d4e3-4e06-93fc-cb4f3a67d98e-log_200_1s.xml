@@ -1,0 +1,7 @@
+<step title="Incoming Request" date="2026-02-22T19:08:11.997" instance="f5e05b" url="/api/deployments/8af93302-d4e3-4e06-93fc-cb4f3a67d98e/log" method="GET" type="request" pid="833,1,20" Accept="*/*" Host="aloure.scm.azurewebsites.net" User-Agent="AZURECLI/2.83.0 (MSI)" Accept-Encoding="gzip, deflate" Authorization="Bea..." x-ms-client-request-id="d254ff1e-1021-11f1-9be2-d0657834ae1c" X-ARR-LOG-ID="d254ff1e-1021-11f1-9be2-d0657834ae1c" CLIENT-IP="45.115.105.221:60673" X-SITE-DEPLOYMENT-ID="Aloure" WAS-DEFAULT-HOSTNAME="aloure.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/8af93302-d4e3-4e06-93fc-cb4f3a67d98e/log" X-Client-IP="45.115.105.221" X-Client-Port="60673" >
+  <step title="Cleanup Xml Logs" date="2026-02-22T19:08:12.136" /><!-- duration: 63ms -->
+  <step title="DeploymentService.GetLogEntry" date="2026-02-22T19:08:12.299" >
+    <step title="DeploymentManager.GetLogEntries(id:8af93302-d4e3-4e06-93fc-cb4f3a67d98e)" date="2026-02-22T19:08:12.327" /><!-- duration: 501ms -->
+  </step><!-- duration: 551ms -->
+  <step title="Outgoing response" date="2026-02-22T19:08:12.940" type="response" statusCode="200" statusText="OK" /><!-- duration: 49ms -->
+</step><!-- duration: 1173ms -->

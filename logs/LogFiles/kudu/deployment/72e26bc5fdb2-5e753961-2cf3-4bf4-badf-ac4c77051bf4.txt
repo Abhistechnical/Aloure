@@ -1,0 +1,106 @@
+2026-02-22T16:13:07  Fetching changes.
+2026-02-22T16:13:07    Starting  LocalZipHandler
+2026-02-22T16:13:07    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/7d07e8eb-2ac8-4746-ac12-80c03bebb6e6.zip (32.64 MB) to /tmp/zipdeploy/extracted
+2026-02-22T16:13:14  Updating submodules.
+2026-02-22T16:13:14  Preparing deployment for commit id 'da17db4c-d'.
+2026-02-22T16:13:14  PreDeployment: context.CleanOutputPath False
+2026-02-22T16:13:15  PreDeployment: context.OutputPath /home/site/wwwroot
+2026-02-22T16:13:15  Repository path is /tmp/zipdeploy/extracted
+2026-02-22T16:13:15  Running oryx build...
+2026-02-22T16:13:15    Command: oryx build /tmp/zipdeploy/extracted -o /home/site/wwwroot --platform nodejs --platform-version 20 -p virtualenv_name= --log-file /tmp/build-debug.log  -i /tmp/8de722d4874d17d -p compress_node_modules=tar-gz | tee /tmp/oryx-build.log
+2026-02-22T16:13:17    Operation performed by Microsoft Oryx, https://github.com/Microsoft/Oryx
+2026-02-22T16:13:17    You can report issues at https://github.com/Microsoft/Oryx/issues
+2026-02-22T16:13:17    
+2026-02-22T16:13:17    Oryx Version: 0.2.20260204.1+0fdbe200b286be083841ff7fa201c6c2316dc6b9, Commit: 0fdbe200b286be083841ff7fa201c6c2316dc6b9, ReleaseTagName: 20260204.1
+2026-02-22T16:13:17    
+2026-02-22T16:13:17    Build Operation ID: 570c69798082bb45
+2026-02-22T16:13:17    Repository Commit : da17db4c-da9c-4055-8b17-4a0ca5c71629
+2026-02-22T16:13:17    OS Type           : bookworm
+2026-02-22T16:13:17    Image Type        : githubactions
+2026-02-22T16:13:17    
+2026-02-22T16:13:17    Primary SDK Storage URL: https://oryx-cdn.microsoft.io
+2026-02-22T16:13:17    Backup SDK Storage URL: 
+2026-02-22T16:13:17    Detecting platforms...
+2026-02-22T16:13:17    External SDK provider is enabled.
+2026-02-22T16:13:18    Requesting metadata for platform nodejs from external SDK provider
+2026-02-22T16:13:20    Requesting metadata for platform nodejs from external SDK provider
+2026-02-22T16:13:22    Requesting metadata for platform python from external SDK provider
+2026-02-22T16:13:23    Requesting metadata for platform python from external SDK provider
+2026-02-22T16:13:23    Requesting metadata for platform python from external SDK provider
+2026-02-22T16:13:24    Requesting metadata for platform python from external SDK provider
+2026-02-22T16:13:24    Detected following platforms:
+2026-02-22T16:13:25      nodejs: 20.20.0
+2026-02-22T16:13:25      python: 3.8.18
+2026-02-22T16:13:25    Detected the following frameworks: Typescript,Next.js
+2026-02-22T16:13:25    Warning: An outdated version of python was detected (3.8.18). Consider updating.\nVersions supported by Oryx: https://github.com/microsoft/Oryx
+2026-02-22T16:13:25    
+2026-02-22T16:13:25    
+2026-02-22T16:13:25    Using intermediate directory '/tmp/8de722d4874d17d'.
+2026-02-22T16:13:25    
+2026-02-22T16:13:25    Copying files to the intermediate directory...
+2026-02-22T16:13:28    Copying files to intermediate directory done in 3 sec(s).
+2026-02-22T16:13:28    
+2026-02-22T16:13:29    Source directory     : /tmp/8de722d4874d17d
+2026-02-22T16:13:29    Destination directory: /home/site/wwwroot
+2026-02-22T16:13:29    
+2026-02-22T16:13:30    Running build script snippets...
+2026-02-22T16:13:30    Removing existing manifest file
+2026-02-22T16:13:30    Creating directory for command manifest file if it does not exist
+2026-02-22T16:13:30    Creating a manifest file...
+2026-02-22T16:13:30    Node Build Command Manifest file created.
+2026-02-22T16:13:30    
+2026-02-22T16:13:30    Using Node version:
+2026-02-22T16:13:30    v20.20.0
+2026-02-22T16:13:30    
+2026-02-22T16:13:30    Using Npm version:
+2026-02-22T16:13:31    10.8.2
+2026-02-22T16:13:31    
+2026-02-22T16:13:31    Running 'npm install'...
+2026-02-22T16:13:31    
+2026-02-22T16:18:44    
+2026-02-22T16:18:44    added 410 packages, and audited 411 packages in 5m
+2026-02-22T16:18:44    
+2026-02-22T16:18:44    148 packages are looking for funding
+2026-02-22T16:18:44      run `npm fund` for details
+2026-02-22T16:18:45    
+2026-02-22T16:18:46    14 high severity vulnerabilities
+2026-02-22T16:18:46    
+2026-02-22T16:18:46    To address issues that do not require attention, run:
+2026-02-22T16:18:50      npm audit fix
+2026-02-22T16:18:50    
+2026-02-22T16:18:50    To address all issues (including breaking changes), run:
+2026-02-22T16:18:50      npm audit fix --force
+2026-02-22T16:18:50    
+2026-02-22T16:18:50    Run `npm audit` for details.
+2026-02-22T16:18:50    
+2026-02-22T16:18:50    Running 'npm run build'...
+2026-02-22T16:18:50    
+2026-02-22T16:18:50    
+2026-02-22T16:18:51    > frontend@0.1.0 build
+2026-02-22T16:18:51    > next build
+2026-02-22T16:18:51    
+2026-02-22T16:18:56    Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-02-22T16:18:56    This information is used to shape Next.js' roadmap and prioritize features.
+2026-02-22T16:18:56    You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-02-22T16:18:56    https://nextjs.org/telemetry
+2026-02-22T16:18:56    
+2026-02-22T16:18:57    
+2026-02-22T16:18:57    > Build error occurred
+2026-02-22T16:18:57    Error: > Couldn't find any `pages` or `app` directory. Please create one under the project root
+2026-02-22T16:18:57        at ignore-listed frames
+2026-02-22T16:19:01    > Build error occurred
+Error: > Couldn't find any `pages` or `app` directory. Please create one under the project root
+    at ignore-listed frames
+/bin/bash -c "oryx build /tmp/zipdeploy/extracted -o /home/site/wwwroot --platform nodejs --platform-version 20 -p virtualenv_name= --log-file /tmp/build-debug.log  -i /tmp/8de722d4874d17d -p compress_node_modules=tar-gz | tee /tmp/oryx-build.log ; exit $PIPESTATUS "
+2026-02-22T16:19:01  
+2026-02-22T16:19:01  
+2026-02-22T16:19:01  Generating summary of Oryx build
+2026-02-22T16:19:01  Parsing the build logs
+2026-02-22T16:19:01  Found 0 issue(s)
+2026-02-22T16:19:02  
+2026-02-22T16:19:02  Build Summary :
+2026-02-22T16:19:02  ===============
+2026-02-22T16:19:02  Errors (0)
+2026-02-22T16:19:02  Warnings (0)
+2026-02-22T16:19:02  
+2026-02-22T16:19:03  Deployment Failed. deployer = OneDeploy deploymentPath = OneDeploy

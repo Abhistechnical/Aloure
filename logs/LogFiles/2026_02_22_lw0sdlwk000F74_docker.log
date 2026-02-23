@@ -1,0 +1,433 @@
+2026-02-22T17:01:51.1536995Z Container start method called.
+2026-02-22T17:01:51.1586801Z Establishing network.
+2026-02-22T17:01:51.1659172Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-02-22T17:02:17.9077725Z Image appsvc/node:20-lts_20260115.4.tuxprod is pulled from registry 10.1.0.4:13209
+2026-02-22T17:02:17.9357199Z Container is starting.
+2026-02-22T17:02:17.9376219Z Establishing user namespace if not established already.
+2026-02-22T17:02:17.9549658Z Establishing network if not established already.
+2026-02-22T17:02:17.9552679Z Mounting volumes.
+2026-02-22T17:02:18.0040183Z Nested mountpoint 
+2026-02-22T17:02:18.1054768Z Nested mountpoint volatile/logs
+2026-02-22T17:02:18.1647310Z Nested mountpoint 
+2026-02-22T17:02:18.4662269Z Nested mountpoint 
+2026-02-22T17:02:18.5254462Z Nested mountpoint 
+2026-02-22T17:02:19.3384165Z Creating container.
+2026-02-22T17:02:19.3474104Z Creating pipes for streaming container io.
+2026-02-22T17:02:19.3566541Z Creating stdout named pipe at /podr/container/pipe/6345287ee6a1_aloure/stdout_75c7c21fd35441d3802a1c61b0beb516.
+2026-02-22T17:02:19.3672397Z Successfully created stdout named pipe at: /podr/container/pipe/6345287ee6a1_aloure/stdout_75c7c21fd35441d3802a1c61b0beb516.
+2026-02-22T17:02:19.3676289Z Opening named pipe /podr/container/pipe/6345287ee6a1_aloure/stdout_75c7c21fd35441d3802a1c61b0beb516 for reading in non-blocking mode.
+2026-02-22T17:02:19.3682364Z Successfully opened named pipe: /podr/container/pipe/6345287ee6a1_aloure/stdout_75c7c21fd35441d3802a1c61b0beb516.
+2026-02-22T17:02:19.3856245Z Successfully removed non-blocking flag from /podr/container/pipe/6345287ee6a1_aloure/stdout_75c7c21fd35441d3802a1c61b0beb516.
+2026-02-22T17:02:19.3863533Z Creating stderr named pipe at /podr/container/pipe/6345287ee6a1_aloure/stderr_99253ab4164e46a39edb3b816c54d776.
+2026-02-22T17:02:19.3867975Z Successfully created stderr named pipe at: /podr/container/pipe/6345287ee6a1_aloure/stderr_99253ab4164e46a39edb3b816c54d776.
+2026-02-22T17:02:19.3877771Z Opening named pipe /podr/container/pipe/6345287ee6a1_aloure/stderr_99253ab4164e46a39edb3b816c54d776 for reading in non-blocking mode.
+2026-02-22T17:02:19.3957695Z Successfully opened named pipe: /podr/container/pipe/6345287ee6a1_aloure/stderr_99253ab4164e46a39edb3b816c54d776.
+2026-02-22T17:02:19.3971730Z Successfully removed non-blocking flag from /podr/container/pipe/6345287ee6a1_aloure/stderr_99253ab4164e46a39edb3b816c54d776.
+2026-02-22T17:02:19.4058141Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-02-22T17:02:22.7066680Z Starting container: 6345287ee6a1_aloure.
+2026-02-22T17:02:23.1191600Z Starting watchers and probes.
+2026-02-22T17:02:23.2017546Z Starting metrics collection.
+2026-02-22T17:02:23.2196795Z Container is running.
+2026-02-22T17:02:25.2866654Z Container start method finished after 34130 ms.
+2026-02-22T17:02:59.0780699Z Container has finished running with exit code: 127.
+2026-02-22T17:02:59.0973094Z Container is terminating. Grace period: 5 seconds.
+2026-02-22T17:02:59.1351618Z Stop and delete container. Retry count = 0
+2026-02-22T17:02:59.1373502Z Stopping container: 6345287ee6a1_aloure.
+2026-02-22T17:02:59.2669519Z Deleting container: 6345287ee6a1_aloure. Retry count = 0
+2026-02-22T17:02:59.6538294Z Container spec TerminationMessagePolicy  path 
+2026-02-22T17:02:59.6691313Z Container is terminated. Total time elapsed: 560 ms.
+2026-02-22T17:02:59.6713672Z Site container: aloure terminated during site startup.
+2026-02-22T17:02:59.7346397Z Site startup probe failed after 34.3184931 seconds.
+2026-02-22T17:02:59.9302276Z Failed to start site. Revert by stopping site.
+2026-02-22T17:02:59.9709207Z Site: aloure stopped.
+2026-02-22T17:03:03.6060352Z Container start method called.
+2026-02-22T17:03:03.6063627Z Establishing network.
+2026-02-22T17:03:03.6064735Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-02-22T17:03:23.3657334Z Container is starting.
+2026-02-22T17:03:23.3742547Z Establishing user namespace if not established already.
+2026-02-22T17:03:23.3750385Z Establishing network if not established already.
+2026-02-22T17:03:23.3755107Z Mounting volumes.
+2026-02-22T17:03:23.3763784Z Nested mountpoint 
+2026-02-22T17:03:23.4045056Z Nested mountpoint volatile/logs
+2026-02-22T17:03:23.4362440Z Nested mountpoint 
+2026-02-22T17:03:23.4459635Z Nested mountpoint 
+2026-02-22T17:03:23.4640368Z Nested mountpoint 
+2026-02-22T17:03:23.9786126Z Creating container.
+2026-02-22T17:03:23.9787260Z Creating pipes for streaming container io.
+2026-02-22T17:03:23.9788055Z Creating stdout named pipe at /podr/container/pipe/a01e4f6a70e2_aloure/stdout_d585631a40ff414a9e8dffa2df2f33a0.
+2026-02-22T17:03:23.9789801Z Successfully created stdout named pipe at: /podr/container/pipe/a01e4f6a70e2_aloure/stdout_d585631a40ff414a9e8dffa2df2f33a0.
+2026-02-22T17:03:23.9790575Z Opening named pipe /podr/container/pipe/a01e4f6a70e2_aloure/stdout_d585631a40ff414a9e8dffa2df2f33a0 for reading in non-blocking mode.
+2026-02-22T17:03:23.9791428Z Successfully opened named pipe: /podr/container/pipe/a01e4f6a70e2_aloure/stdout_d585631a40ff414a9e8dffa2df2f33a0.
+2026-02-22T17:03:23.9792106Z Successfully removed non-blocking flag from /podr/container/pipe/a01e4f6a70e2_aloure/stdout_d585631a40ff414a9e8dffa2df2f33a0.
+2026-02-22T17:03:23.9793095Z Creating stderr named pipe at /podr/container/pipe/a01e4f6a70e2_aloure/stderr_9e4f52e5b1914c619180069794e1dc46.
+2026-02-22T17:03:23.9794183Z Successfully created stderr named pipe at: /podr/container/pipe/a01e4f6a70e2_aloure/stderr_9e4f52e5b1914c619180069794e1dc46.
+2026-02-22T17:03:23.9883036Z Opening named pipe /podr/container/pipe/a01e4f6a70e2_aloure/stderr_9e4f52e5b1914c619180069794e1dc46 for reading in non-blocking mode.
+2026-02-22T17:03:23.9894447Z Successfully opened named pipe: /podr/container/pipe/a01e4f6a70e2_aloure/stderr_9e4f52e5b1914c619180069794e1dc46.
+2026-02-22T17:03:23.9971057Z Successfully removed non-blocking flag from /podr/container/pipe/a01e4f6a70e2_aloure/stderr_9e4f52e5b1914c619180069794e1dc46.
+2026-02-22T17:03:23.9978339Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-02-22T17:03:25.4075503Z Starting container: a01e4f6a70e2_aloure.
+2026-02-22T17:03:25.5374461Z Starting watchers and probes.
+2026-02-22T17:03:25.5469943Z Starting metrics collection.
+2026-02-22T17:03:25.5562532Z Container is running.
+2026-02-22T17:03:27.6631271Z Container start method finished after 23986 ms.
+2026-02-22T17:03:53.6263015Z Container has finished running with exit code: 127.
+2026-02-22T17:03:53.6266548Z Container is terminating. Grace period: 5 seconds.
+2026-02-22T17:03:53.6275678Z Stop and delete container. Retry count = 0
+2026-02-22T17:03:53.6287606Z Stopping container: a01e4f6a70e2_aloure.
+2026-02-22T17:03:53.7663352Z Deleting container: a01e4f6a70e2_aloure. Retry count = 0
+2026-02-22T17:03:53.9697729Z Container spec TerminationMessagePolicy  path 
+2026-02-22T17:03:53.9699847Z Container is terminated. Total time elapsed: 343 ms.
+2026-02-22T17:03:53.9700777Z Site container: aloure terminated during site startup.
+2026-02-22T17:03:54.0187132Z Site startup probe failed after 26.3547325 seconds.
+2026-02-22T17:03:54.2310132Z Failed to start site. Revert by stopping site.
+2026-02-22T17:03:54.2392360Z Site: aloure stopped.
+2026-02-22T17:03:54.7714339Z Site: aloure will be blocked for 1 minutes till 02/22/2026 17:04:54
+2026-02-22T17:04:00.2063971Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:05.3597336Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:10.5259722Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:15.9465373Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:21.0481994Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:22.5561515Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:23.2363095Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:26.2001921Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:31.3392458Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:36.5017025Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:41.6454547Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:47.0171141Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:52.1533017Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:04:54.7733292Z Site: aloure is unblocked.
+2026-02-22T17:04:58.8607038Z Container start method called.
+2026-02-22T17:04:58.8812131Z Establishing network.
+2026-02-22T17:04:58.8821954Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-02-22T17:05:19.6047411Z Container is starting.
+2026-02-22T17:05:19.6128314Z Establishing user namespace if not established already.
+2026-02-22T17:05:19.6136698Z Establishing network if not established already.
+2026-02-22T17:05:19.6218892Z Mounting volumes.
+2026-02-22T17:05:19.6227759Z Nested mountpoint 
+2026-02-22T17:05:19.6418907Z Nested mountpoint volatile/logs
+2026-02-22T17:05:19.6819764Z Nested mountpoint 
+2026-02-22T17:05:19.7550212Z Nested mountpoint 
+2026-02-22T17:05:19.8843772Z Nested mountpoint 
+2026-02-22T17:05:20.0966821Z Creating container.
+2026-02-22T17:05:20.0968136Z Creating pipes for streaming container io.
+2026-02-22T17:05:20.0969026Z Creating stdout named pipe at /podr/container/pipe/3be764b7b57d_aloure/stdout_fe71486951e742e6ae7a0b4f682a387d.
+2026-02-22T17:05:20.0970754Z Successfully created stdout named pipe at: /podr/container/pipe/3be764b7b57d_aloure/stdout_fe71486951e742e6ae7a0b4f682a387d.
+2026-02-22T17:05:20.0971464Z Opening named pipe /podr/container/pipe/3be764b7b57d_aloure/stdout_fe71486951e742e6ae7a0b4f682a387d for reading in non-blocking mode.
+2026-02-22T17:05:20.0972312Z Successfully opened named pipe: /podr/container/pipe/3be764b7b57d_aloure/stdout_fe71486951e742e6ae7a0b4f682a387d.
+2026-02-22T17:05:20.0973877Z Successfully removed non-blocking flag from /podr/container/pipe/3be764b7b57d_aloure/stdout_fe71486951e742e6ae7a0b4f682a387d.
+2026-02-22T17:05:20.1067624Z Creating stderr named pipe at /podr/container/pipe/3be764b7b57d_aloure/stderr_e99cf6bdb3d349f58ef6ec9e483a4a9b.
+2026-02-22T17:05:20.1069336Z Successfully created stderr named pipe at: /podr/container/pipe/3be764b7b57d_aloure/stderr_e99cf6bdb3d349f58ef6ec9e483a4a9b.
+2026-02-22T17:05:20.1070216Z Opening named pipe /podr/container/pipe/3be764b7b57d_aloure/stderr_e99cf6bdb3d349f58ef6ec9e483a4a9b for reading in non-blocking mode.
+2026-02-22T17:05:20.1071278Z Successfully opened named pipe: /podr/container/pipe/3be764b7b57d_aloure/stderr_e99cf6bdb3d349f58ef6ec9e483a4a9b.
+2026-02-22T17:05:20.1072004Z Successfully removed non-blocking flag from /podr/container/pipe/3be764b7b57d_aloure/stderr_e99cf6bdb3d349f58ef6ec9e483a4a9b.
+2026-02-22T17:05:20.1073151Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-02-22T17:05:20.9856162Z Starting container: 3be764b7b57d_aloure.
+2026-02-22T17:05:21.0656027Z Starting watchers and probes.
+2026-02-22T17:05:21.0668093Z Starting metrics collection.
+2026-02-22T17:05:21.0756794Z Container is running.
+2026-02-22T17:05:22.0248807Z Container start method finished after 23115 ms.
+2026-02-22T17:05:46.9057612Z Container has finished running with exit code: 127.
+2026-02-22T17:05:46.9058676Z Container is terminating. Grace period: 5 seconds.
+2026-02-22T17:05:46.9061206Z Stop and delete container. Retry count = 0
+2026-02-22T17:05:46.9248638Z Stopping container: 3be764b7b57d_aloure.
+2026-02-22T17:05:47.0841190Z Deleting container: 3be764b7b57d_aloure. Retry count = 0
+2026-02-22T17:05:47.4155777Z Container spec TerminationMessagePolicy  path 
+2026-02-22T17:05:47.4157169Z Container is terminated. Total time elapsed: 509 ms.
+2026-02-22T17:05:47.4177153Z Site container: aloure terminated during site startup.
+2026-02-22T17:05:47.4548395Z Site startup probe failed after 25.4028729 seconds.
+2026-02-22T17:05:47.4562308Z Container get mounts received unexpected exception.
+2026-02-22T17:05:47.6226051Z Failed to start site. Revert by stopping site.
+2026-02-22T17:05:47.6248614Z Site: aloure stopped.
+2026-02-22T17:05:48.1117824Z Site: aloure will be blocked for 1 minutes till 02/22/2026 17:06:48
+2026-02-22T17:05:53.3149238Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:05:58.4648458Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:04.0776477Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:09.2829125Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:14.4127924Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:19.5025642Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:24.6933287Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:29.8686075Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:35.5663469Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:40.6990786Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:45.8702597Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:06:49.7785519Z Site: aloure is unblocked.
+2026-02-22T17:06:53.4070820Z Container start method called.
+2026-02-22T17:06:53.4079680Z Establishing network.
+2026-02-22T17:06:53.4157702Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-02-22T17:07:20.8173716Z Container is starting.
+2026-02-22T17:07:20.8981501Z Establishing user namespace if not established already.
+2026-02-22T17:07:20.8986680Z Establishing network if not established already.
+2026-02-22T17:07:20.8993386Z Mounting volumes.
+2026-02-22T17:07:20.9469590Z Nested mountpoint 
+2026-02-22T17:07:21.0889067Z Nested mountpoint volatile/logs
+2026-02-22T17:07:21.1595337Z Nested mountpoint 
+2026-02-22T17:07:21.1601812Z Nested mountpoint 
+2026-02-22T17:07:21.2898057Z Nested mountpoint 
+2026-02-22T17:07:24.8710962Z Creating container.
+2026-02-22T17:07:24.8727829Z Creating pipes for streaming container io.
+2026-02-22T17:07:24.8920918Z Creating stdout named pipe at /podr/container/pipe/97f3dee1dc28_aloure/stdout_187e1fc2625a42b6865acd3a3700a0a4.
+2026-02-22T17:07:24.9118294Z Successfully created stdout named pipe at: /podr/container/pipe/97f3dee1dc28_aloure/stdout_187e1fc2625a42b6865acd3a3700a0a4.
+2026-02-22T17:07:24.9122868Z Opening named pipe /podr/container/pipe/97f3dee1dc28_aloure/stdout_187e1fc2625a42b6865acd3a3700a0a4 for reading in non-blocking mode.
+2026-02-22T17:07:24.9126066Z Successfully opened named pipe: /podr/container/pipe/97f3dee1dc28_aloure/stdout_187e1fc2625a42b6865acd3a3700a0a4.
+2026-02-22T17:07:24.9128859Z Successfully removed non-blocking flag from /podr/container/pipe/97f3dee1dc28_aloure/stdout_187e1fc2625a42b6865acd3a3700a0a4.
+2026-02-22T17:07:24.9132288Z Creating stderr named pipe at /podr/container/pipe/97f3dee1dc28_aloure/stderr_6d6e84ab46564ac48f7a6ca81d401cfd.
+2026-02-22T17:07:24.9210834Z Successfully created stderr named pipe at: /podr/container/pipe/97f3dee1dc28_aloure/stderr_6d6e84ab46564ac48f7a6ca81d401cfd.
+2026-02-22T17:07:24.9216608Z Opening named pipe /podr/container/pipe/97f3dee1dc28_aloure/stderr_6d6e84ab46564ac48f7a6ca81d401cfd for reading in non-blocking mode.
+2026-02-22T17:07:24.9219647Z Successfully opened named pipe: /podr/container/pipe/97f3dee1dc28_aloure/stderr_6d6e84ab46564ac48f7a6ca81d401cfd.
+2026-02-22T17:07:24.9312733Z Successfully removed non-blocking flag from /podr/container/pipe/97f3dee1dc28_aloure/stderr_6d6e84ab46564ac48f7a6ca81d401cfd.
+2026-02-22T17:07:24.9323835Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-02-22T17:07:27.1970584Z Starting container: 97f3dee1dc28_aloure.
+2026-02-22T17:07:27.4890015Z Starting watchers and probes.
+2026-02-22T17:07:27.6199560Z Starting metrics collection.
+2026-02-22T17:07:27.6203308Z Container is running.
+2026-02-22T17:07:28.6456153Z Container start method finished after 35238 ms.
+2026-02-22T17:08:18.3562283Z Container has finished running with exit code: 127.
+2026-02-22T17:08:18.3563516Z Container is terminating. Grace period: 5 seconds.
+2026-02-22T17:08:18.4207171Z Stop and delete container. Retry count = 0
+2026-02-22T17:08:18.4218853Z Stopping container: 97f3dee1dc28_aloure.
+2026-02-22T17:08:18.5015922Z Deleting container: 97f3dee1dc28_aloure. Retry count = 0
+2026-02-22T17:08:18.8404841Z Container spec TerminationMessagePolicy  path 
+2026-02-22T17:08:18.8442341Z Container is terminated. Total time elapsed: 432 ms.
+2026-02-22T17:08:18.8505987Z Site container: aloure terminated during site startup.
+2026-02-22T17:08:18.8822827Z Site startup probe failed after 50.1748259 seconds.
+2026-02-22T17:08:19.1124395Z Failed to start site. Revert by stopping site.
+2026-02-22T17:08:19.1409774Z Site: aloure stopped.
+2026-02-22T17:08:19.6769097Z Site: aloure will be blocked for 2 minutes till 02/22/2026 17:10:19
+2026-02-22T17:08:25.2120205Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:08:30.4528301Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:08:35.6637624Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:08:40.8762617Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:08:46.0156208Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:08:51.2143938Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:08:56.3318969Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:01.5817512Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:06.7762034Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:11.8881443Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:16.9927757Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:22.1643961Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:27.2373823Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:32.3447675Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:37.4523611Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:42.6123239Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:48.7940956Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:53.9686795Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:09:59.0741399Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:10:04.2762520Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:10:09.3567767Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:10:14.4869687Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:10:19.5826981Z Start site prohibitted because the site is being blocked.
+2026-02-22T17:10:19.6835729Z Site: aloure is unblocked.
+2026-02-22T17:10:26.2046489Z Container start method called.
+2026-02-22T17:10:26.2238401Z Establishing network.
+2026-02-22T17:10:26.2246422Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-02-22T17:10:46.1751843Z Container is starting.
+2026-02-22T17:10:46.1845682Z Establishing user namespace if not established already.
+2026-02-22T17:10:46.1851488Z Establishing network if not established already.
+2026-02-22T17:10:46.1856328Z Mounting volumes.
+2026-02-22T17:10:46.1858132Z Nested mountpoint 
+2026-02-22T17:10:46.2661734Z Nested mountpoint volatile/logs
+2026-02-22T17:10:46.3053363Z Nested mountpoint 
+2026-02-22T17:10:46.3138996Z Nested mountpoint 
+2026-02-22T17:10:46.3257045Z Nested mountpoint 
+2026-02-22T17:10:47.0265074Z Creating container.
+2026-02-22T17:10:47.0346996Z Creating pipes for streaming container io.
+2026-02-22T17:10:47.0354629Z Creating stdout named pipe at /podr/container/pipe/1145abdeecfd_aloure/stdout_4ca55d0baffd45c39610c52dfca1d2b8.
+2026-02-22T17:10:47.0494018Z Successfully created stdout named pipe at: /podr/container/pipe/1145abdeecfd_aloure/stdout_4ca55d0baffd45c39610c52dfca1d2b8.
+2026-02-22T17:10:47.0499881Z Opening named pipe /podr/container/pipe/1145abdeecfd_aloure/stdout_4ca55d0baffd45c39610c52dfca1d2b8 for reading in non-blocking mode.
+2026-02-22T17:10:47.0511663Z Successfully opened named pipe: /podr/container/pipe/1145abdeecfd_aloure/stdout_4ca55d0baffd45c39610c52dfca1d2b8.
+2026-02-22T17:10:47.0517503Z Successfully removed non-blocking flag from /podr/container/pipe/1145abdeecfd_aloure/stdout_4ca55d0baffd45c39610c52dfca1d2b8.
+2026-02-22T17:10:47.0543003Z Creating stderr named pipe at /podr/container/pipe/1145abdeecfd_aloure/stderr_321f68186d174bd78a0f5776a69819ad.
+2026-02-22T17:10:47.0549942Z Successfully created stderr named pipe at: /podr/container/pipe/1145abdeecfd_aloure/stderr_321f68186d174bd78a0f5776a69819ad.
+2026-02-22T17:10:47.0555119Z Opening named pipe /podr/container/pipe/1145abdeecfd_aloure/stderr_321f68186d174bd78a0f5776a69819ad for reading in non-blocking mode.
+2026-02-22T17:10:47.0562391Z Successfully opened named pipe: /podr/container/pipe/1145abdeecfd_aloure/stderr_321f68186d174bd78a0f5776a69819ad.
+2026-02-22T17:10:47.0569543Z Successfully removed non-blocking flag from /podr/container/pipe/1145abdeecfd_aloure/stderr_321f68186d174bd78a0f5776a69819ad.
+2026-02-22T17:10:47.0646255Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-02-22T17:10:47.5969359Z Starting container: 1145abdeecfd_aloure.
+2026-02-22T17:10:47.6997649Z Starting watchers and probes.
+2026-02-22T17:10:47.7203533Z Starting metrics collection.
+2026-02-22T17:10:47.7391003Z Container is running.
+2026-02-22T17:10:47.9109133Z Container start method finished after 21705 ms.
+2026-02-22T17:11:17.6069348Z Container has finished running with exit code: 127.
+2026-02-22T17:11:17.6075498Z Container is terminating. Grace period: 5 seconds.
+2026-02-22T17:11:17.6078537Z Stop and delete container. Retry count = 0
+2026-02-22T17:11:17.6079329Z Stopping container: 1145abdeecfd_aloure.
+2026-02-22T17:11:17.6580587Z Deleting container: 1145abdeecfd_aloure. Retry count = 0
+2026-02-22T17:11:17.9343877Z Container spec TerminationMessagePolicy  path 
+2026-02-22T17:11:17.9356333Z Container is terminated. Total time elapsed: 327 ms.
+2026-02-22T17:11:17.9364965Z Site container: aloure terminated during site startup.
+2026-02-22T17:11:18.0268153Z Site startup probe failed after 30.0848423 seconds.
+2026-02-22T17:11:18.2171752Z Failed to start site. Revert by stopping site.
+2026-02-22T17:11:18.2268595Z Site: aloure stopped.
+2026-02-22T19:16:44.4908915Z Container start method called.
+2026-02-22T19:16:44.5098687Z Establishing network.
+2026-02-22T19:16:44.5106678Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-02-22T19:17:05.3990916Z Container is starting.
+2026-02-22T19:17:05.3993810Z Establishing user namespace if not established already.
+2026-02-22T19:17:05.3995054Z Establishing network if not established already.
+2026-02-22T19:17:05.3996316Z Mounting volumes.
+2026-02-22T19:17:05.3998074Z Nested mountpoint 
+2026-02-22T19:17:05.4205692Z Nested mountpoint volatile/logs
+2026-02-22T19:17:05.4620392Z Nested mountpoint 
+2026-02-22T19:17:05.4716161Z Nested mountpoint 
+2026-02-22T19:17:05.4820786Z Nested mountpoint 
+2026-02-22T19:17:06.0116974Z Creating container.
+2026-02-22T19:17:06.0134165Z Creating pipes for streaming container io.
+2026-02-22T19:17:06.0213657Z Creating stdout named pipe at /podr/container/pipe/fd90ec2448db_aloure/stdout_9de05b097bf44f4c9ab461d1ce6480c9.
+2026-02-22T19:17:06.0226909Z Successfully created stdout named pipe at: /podr/container/pipe/fd90ec2448db_aloure/stdout_9de05b097bf44f4c9ab461d1ce6480c9.
+2026-02-22T19:17:06.0238833Z Opening named pipe /podr/container/pipe/fd90ec2448db_aloure/stdout_9de05b097bf44f4c9ab461d1ce6480c9 for reading in non-blocking mode.
+2026-02-22T19:17:06.0311650Z Successfully opened named pipe: /podr/container/pipe/fd90ec2448db_aloure/stdout_9de05b097bf44f4c9ab461d1ce6480c9.
+2026-02-22T19:17:06.0312709Z Successfully removed non-blocking flag from /podr/container/pipe/fd90ec2448db_aloure/stdout_9de05b097bf44f4c9ab461d1ce6480c9.
+2026-02-22T19:17:06.0313579Z Creating stderr named pipe at /podr/container/pipe/fd90ec2448db_aloure/stderr_6cdcd14140254d789befaf37e4fca194.
+2026-02-22T19:17:06.0314907Z Successfully created stderr named pipe at: /podr/container/pipe/fd90ec2448db_aloure/stderr_6cdcd14140254d789befaf37e4fca194.
+2026-02-22T19:17:06.0315615Z Opening named pipe /podr/container/pipe/fd90ec2448db_aloure/stderr_6cdcd14140254d789befaf37e4fca194 for reading in non-blocking mode.
+2026-02-22T19:17:06.0316481Z Successfully opened named pipe: /podr/container/pipe/fd90ec2448db_aloure/stderr_6cdcd14140254d789befaf37e4fca194.
+2026-02-22T19:17:06.0322080Z Successfully removed non-blocking flag from /podr/container/pipe/fd90ec2448db_aloure/stderr_6cdcd14140254d789befaf37e4fca194.
+2026-02-22T19:17:06.0323609Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-02-22T19:17:06.5563407Z Starting container: fd90ec2448db_aloure.
+2026-02-22T19:17:06.6446734Z Starting watchers and probes.
+2026-02-22T19:17:06.6451034Z Starting metrics collection.
+2026-02-22T19:17:06.6458371Z Container is running.
+2026-02-22T19:17:06.8260547Z Container start method finished after 22335 ms.
+2026-02-22T19:17:51.6716095Z Container has finished running with exit code: 127.
+2026-02-22T19:17:51.6819781Z Container is terminating. Grace period: 5 seconds.
+2026-02-22T19:17:51.6839684Z Stop and delete container. Retry count = 0
+2026-02-22T19:17:51.6840630Z Stopping container: fd90ec2448db_aloure.
+2026-02-22T19:17:51.7633307Z Deleting container: fd90ec2448db_aloure. Retry count = 0
+2026-02-22T19:17:52.1094438Z Container spec TerminationMessagePolicy  path 
+2026-02-22T19:17:52.1189416Z Container is terminated. Total time elapsed: 435 ms.
+2026-02-22T19:17:52.1195251Z Site container: aloure terminated during site startup.
+2026-02-22T19:17:52.1684555Z Site startup probe failed after 45.1616469 seconds.
+2026-02-22T19:17:52.3994896Z Failed to start site. Revert by stopping site.
+2026-02-22T19:17:52.4089078Z Site: aloure stopped.
+2026-02-22T19:17:55.7961882Z Container start method called.
+2026-02-22T19:17:55.7963284Z Establishing network.
+2026-02-22T19:17:55.7964215Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-02-22T19:18:15.1733948Z Container is starting.
+2026-02-22T19:18:15.1738775Z Establishing user namespace if not established already.
+2026-02-22T19:18:15.1743670Z Establishing network if not established already.
+2026-02-22T19:18:15.1746994Z Mounting volumes.
+2026-02-22T19:18:15.1749305Z Nested mountpoint 
+2026-02-22T19:18:15.2150612Z Nested mountpoint volatile/logs
+2026-02-22T19:18:15.2642935Z Nested mountpoint 
+2026-02-22T19:18:15.2748802Z Nested mountpoint 
+2026-02-22T19:18:15.3057352Z Nested mountpoint 
+2026-02-22T19:18:15.7760130Z Creating container.
+2026-02-22T19:18:15.7762588Z Creating pipes for streaming container io.
+2026-02-22T19:18:15.7764063Z Creating stdout named pipe at /podr/container/pipe/bcc6c5e0085f_aloure/stdout_206538d0447b414e9127e4344464ddcd.
+2026-02-22T19:18:15.7766172Z Successfully created stdout named pipe at: /podr/container/pipe/bcc6c5e0085f_aloure/stdout_206538d0447b414e9127e4344464ddcd.
+2026-02-22T19:18:15.7768755Z Opening named pipe /podr/container/pipe/bcc6c5e0085f_aloure/stdout_206538d0447b414e9127e4344464ddcd for reading in non-blocking mode.
+2026-02-22T19:18:15.7770113Z Successfully opened named pipe: /podr/container/pipe/bcc6c5e0085f_aloure/stdout_206538d0447b414e9127e4344464ddcd.
+2026-02-22T19:18:15.7783696Z Successfully removed non-blocking flag from /podr/container/pipe/bcc6c5e0085f_aloure/stdout_206538d0447b414e9127e4344464ddcd.
+2026-02-22T19:18:15.7959713Z Creating stderr named pipe at /podr/container/pipe/bcc6c5e0085f_aloure/stderr_6df38a1419ea45fe8e870efec74f0149.
+2026-02-22T19:18:15.7966659Z Successfully created stderr named pipe at: /podr/container/pipe/bcc6c5e0085f_aloure/stderr_6df38a1419ea45fe8e870efec74f0149.
+2026-02-22T19:18:15.7968223Z Opening named pipe /podr/container/pipe/bcc6c5e0085f_aloure/stderr_6df38a1419ea45fe8e870efec74f0149 for reading in non-blocking mode.
+2026-02-22T19:18:15.7969355Z Successfully opened named pipe: /podr/container/pipe/bcc6c5e0085f_aloure/stderr_6df38a1419ea45fe8e870efec74f0149.
+2026-02-22T19:18:15.8155002Z Successfully removed non-blocking flag from /podr/container/pipe/bcc6c5e0085f_aloure/stderr_6df38a1419ea45fe8e870efec74f0149.
+2026-02-22T19:18:15.8157877Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-02-22T19:18:16.4483817Z Starting container: bcc6c5e0085f_aloure.
+2026-02-22T19:18:16.5666657Z Starting watchers and probes.
+2026-02-22T19:18:16.5764388Z Starting metrics collection.
+2026-02-22T19:18:16.5789601Z Container is running.
+2026-02-22T19:18:16.9691384Z Container start method finished after 21172 ms.
+2026-02-22T19:18:46.9919686Z Container has finished running with exit code: 127.
+2026-02-22T19:18:46.9926562Z Container is terminating. Grace period: 5 seconds.
+2026-02-22T19:18:46.9939012Z Stop and delete container. Retry count = 0
+2026-02-22T19:18:46.9944294Z Stopping container: bcc6c5e0085f_aloure.
+2026-02-22T19:18:47.2908373Z Deleting container: bcc6c5e0085f_aloure. Retry count = 0
+2026-02-22T19:18:47.5602524Z Container get mounts received unexpected exception.
+2026-02-22T19:18:47.5987778Z Container get mounts received unexpected exception.
+2026-02-22T19:18:47.6012050Z Container get processes received unexpected exception.
+2026-02-22T19:18:47.6691080Z Container get processes received unexpected exception.
+2026-02-22T19:18:47.7194718Z Container spec TerminationMessagePolicy  path 
+2026-02-22T19:18:47.7378056Z Container is terminated. Total time elapsed: 744 ms.
+2026-02-22T19:18:47.7393251Z Site container: aloure terminated during site startup.
+2026-02-22T19:18:47.8085421Z Site startup probe failed after 30.7832445 seconds.
+2026-02-22T19:18:48.1276748Z Failed to start site. Revert by stopping site.
+2026-02-22T19:18:48.1282105Z Site: aloure stopped.
+2026-02-22T19:18:48.7113588Z Site: aloure will be blocked for 1 minutes till 02/22/2026 19:19:48
+2026-02-22T19:19:48.7095152Z Site: aloure is unblocked.
+2026-02-22T19:27:30.4269924Z Container start method called.
+2026-02-22T19:27:30.4365610Z Establishing network.
+2026-02-22T19:27:30.4650311Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-02-22T19:27:55.9773196Z Container is starting.
+2026-02-22T19:27:55.9968139Z Establishing user namespace if not established already.
+2026-02-22T19:27:55.9980888Z Establishing network if not established already.
+2026-02-22T19:27:56.0172833Z Mounting volumes.
+2026-02-22T19:27:56.0478113Z Nested mountpoint 
+2026-02-22T19:27:56.1162073Z Nested mountpoint volatile/logs
+2026-02-22T19:27:56.1473086Z Nested mountpoint 
+2026-02-22T19:27:56.2079831Z Nested mountpoint 
+2026-02-22T19:27:56.2085115Z Nested mountpoint 
+2026-02-22T19:27:56.8503096Z Creating container.
+2026-02-22T19:27:56.8512572Z Creating pipes for streaming container io.
+2026-02-22T19:27:56.8517055Z Creating stdout named pipe at /podr/container/pipe/62eb45df69df_aloure/stdout_b94f267ee4974002ac5aa724db7c3b5d.
+2026-02-22T19:27:56.8615590Z Successfully created stdout named pipe at: /podr/container/pipe/62eb45df69df_aloure/stdout_b94f267ee4974002ac5aa724db7c3b5d.
+2026-02-22T19:27:56.8713382Z Opening named pipe /podr/container/pipe/62eb45df69df_aloure/stdout_b94f267ee4974002ac5aa724db7c3b5d for reading in non-blocking mode.
+2026-02-22T19:27:56.8715102Z Successfully opened named pipe: /podr/container/pipe/62eb45df69df_aloure/stdout_b94f267ee4974002ac5aa724db7c3b5d.
+2026-02-22T19:27:56.9084265Z Successfully removed non-blocking flag from /podr/container/pipe/62eb45df69df_aloure/stdout_b94f267ee4974002ac5aa724db7c3b5d.
+2026-02-22T19:27:56.9092830Z Creating stderr named pipe at /podr/container/pipe/62eb45df69df_aloure/stderr_833df92e8ad2441c8e5dd9729fd25531.
+2026-02-22T19:27:56.9101693Z Successfully created stderr named pipe at: /podr/container/pipe/62eb45df69df_aloure/stderr_833df92e8ad2441c8e5dd9729fd25531.
+2026-02-22T19:27:56.9109062Z Opening named pipe /podr/container/pipe/62eb45df69df_aloure/stderr_833df92e8ad2441c8e5dd9729fd25531 for reading in non-blocking mode.
+2026-02-22T19:27:56.9191487Z Successfully opened named pipe: /podr/container/pipe/62eb45df69df_aloure/stderr_833df92e8ad2441c8e5dd9729fd25531.
+2026-02-22T19:27:56.9195545Z Successfully removed non-blocking flag from /podr/container/pipe/62eb45df69df_aloure/stderr_833df92e8ad2441c8e5dd9729fd25531.
+2026-02-22T19:27:56.9206649Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-02-22T19:27:58.5024828Z Starting container: 62eb45df69df_aloure.
+2026-02-22T19:27:58.6234595Z Starting watchers and probes.
+2026-02-22T19:27:58.6440781Z Starting metrics collection.
+2026-02-22T19:27:58.6638453Z Container is running.
+2026-02-22T19:27:59.0136098Z Container start method finished after 28578 ms.
+2026-02-22T19:28:49.1611673Z Container get mounts received unexpected exception.
+2026-02-22T19:28:49.1611413Z Container get mounts received unexpected exception.
+2026-02-22T19:28:49.2893100Z Container has finished running with exit code: 127.
+2026-02-22T19:28:49.2912215Z Container is terminating. Grace period: 5 seconds.
+2026-02-22T19:28:49.3309751Z Stop and delete container. Retry count = 0
+2026-02-22T19:28:49.3680324Z Stopping container: 62eb45df69df_aloure.
+2026-02-22T19:28:49.5620781Z Deleting container: 62eb45df69df_aloure. Retry count = 0
+2026-02-22T19:28:50.0478570Z Container spec TerminationMessagePolicy  path 
+2026-02-22T19:28:50.0602483Z Container is terminated. Total time elapsed: 731 ms.
+2026-02-22T19:28:50.0610424Z Site container: aloure terminated during site startup.
+2026-02-22T19:28:50.2242566Z Site startup probe failed after 51.0978774 seconds.
+2026-02-22T19:28:50.5570555Z Failed to start site. Revert by stopping site.
+2026-02-22T19:28:50.5941645Z Site: aloure stopped.
+2026-02-22T19:28:51.5305082Z Site: aloure will be blocked for 1 minutes till 02/22/2026 19:29:51
+2026-02-22T19:29:51.5229822Z Site: aloure is unblocked.
+2026-02-22T19:32:51.5376942Z Container start method called.
+2026-02-22T19:32:51.5378783Z Establishing network.
+2026-02-22T19:32:51.5474508Z Pulling image: appsvc/node:20-lts_20260115.4.tuxprod.
+2026-02-22T19:33:11.9306720Z Container is starting.
+2026-02-22T19:33:11.9359663Z Establishing user namespace if not established already.
+2026-02-22T19:33:11.9369009Z Establishing network if not established already.
+2026-02-22T19:33:11.9376637Z Mounting volumes.
+2026-02-22T19:33:11.9467628Z Nested mountpoint 
+2026-02-22T19:33:11.9954305Z Nested mountpoint volatile/logs
+2026-02-22T19:33:12.0080023Z Nested mountpoint 
+2026-02-22T19:33:12.1278292Z Nested mountpoint 
+2026-02-22T19:33:12.1465881Z Nested mountpoint 
+2026-02-22T19:33:12.5736173Z Creating container.
+2026-02-22T19:33:12.5740212Z Creating pipes for streaming container io.
+2026-02-22T19:33:12.5741524Z Creating stdout named pipe at /podr/container/pipe/feb64cfc5d14_aloure/stdout_0652168d3f704352a74353aec88878db.
+2026-02-22T19:33:12.6055284Z Successfully created stdout named pipe at: /podr/container/pipe/feb64cfc5d14_aloure/stdout_0652168d3f704352a74353aec88878db.
+2026-02-22T19:33:12.6136541Z Opening named pipe /podr/container/pipe/feb64cfc5d14_aloure/stdout_0652168d3f704352a74353aec88878db for reading in non-blocking mode.
+2026-02-22T19:33:12.6152977Z Successfully opened named pipe: /podr/container/pipe/feb64cfc5d14_aloure/stdout_0652168d3f704352a74353aec88878db.
+2026-02-22T19:33:12.6154584Z Successfully removed non-blocking flag from /podr/container/pipe/feb64cfc5d14_aloure/stdout_0652168d3f704352a74353aec88878db.
+2026-02-22T19:33:12.6155787Z Creating stderr named pipe at /podr/container/pipe/feb64cfc5d14_aloure/stderr_2b9ceded828d4fd9aa11db8c0c0c70ac.
+2026-02-22T19:33:12.6157446Z Successfully created stderr named pipe at: /podr/container/pipe/feb64cfc5d14_aloure/stderr_2b9ceded828d4fd9aa11db8c0c0c70ac.
+2026-02-22T19:33:12.6158521Z Opening named pipe /podr/container/pipe/feb64cfc5d14_aloure/stderr_2b9ceded828d4fd9aa11db8c0c0c70ac for reading in non-blocking mode.
+2026-02-22T19:33:12.6240821Z Successfully opened named pipe: /podr/container/pipe/feb64cfc5d14_aloure/stderr_2b9ceded828d4fd9aa11db8c0c0c70ac.
+2026-02-22T19:33:12.6246393Z Successfully removed non-blocking flag from /podr/container/pipe/feb64cfc5d14_aloure/stderr_2b9ceded828d4fd9aa11db8c0c0c70ac.
+2026-02-22T19:33:12.6261795Z Creating container with image: appsvc/node:20-lts_20260115.4.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/node:20-lts_20260115.4.tuxprod
+2026-02-22T19:33:13.4481807Z Starting container: feb64cfc5d14_aloure.
+2026-02-22T19:33:13.5408363Z Starting watchers and probes.
+2026-02-22T19:33:13.5415753Z Starting metrics collection.
+2026-02-22T19:33:13.5426118Z Container is running.
+2026-02-22T19:33:13.6014617Z Container start method finished after 22063 ms.
+2026-02-22T19:37:03.8320585Z Site startup probe failed after 230.2080364 seconds.
+2026-02-22T19:37:04.5850742Z Failed to start site. Revert by stopping site.
+2026-02-22T19:37:04.7368068Z Container is terminating. Grace period: 5 seconds.
+2026-02-22T19:37:05.0294611Z Stop and delete container. Retry count = 0
+2026-02-22T19:37:05.0400683Z Stopping container: feb64cfc5d14_aloure.
+2026-02-22T19:37:11.3098469Z Deleting container: feb64cfc5d14_aloure. Retry count = 0
+2026-02-22T19:37:22.3574547Z Container spec TerminationMessagePolicy  path 
+2026-02-22T19:37:22.3962201Z Container is terminated. Total time elapsed: 17570 ms.
+2026-02-22T19:37:22.4150686Z Site container: aloure terminated during site startup.
+2026-02-22T19:37:22.4653896Z Site: aloure stopped.

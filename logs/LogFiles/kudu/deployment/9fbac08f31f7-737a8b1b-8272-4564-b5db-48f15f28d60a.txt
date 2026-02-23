@@ -1,0 +1,13 @@
+2026-02-22T19:15:00  Fetching changes.
+2026-02-22T19:15:01    Starting  LocalZipHandler
+2026-02-22T19:15:01    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/60295190-458e-4bcb-807d-91d027b7e5fe.zip (93.79 MB) to /tmp/zipdeploy/extracted
+2026-02-22T19:15:27  Updating submodules.
+2026-02-22T19:15:27  Preparing deployment for commit id 'cb07c2af-0'.
+2026-02-22T19:15:27  PreDeployment: context.CleanOutputPath False
+2026-02-22T19:15:27  PreDeployment: context.OutputPath /home/site/wwwroot
+2026-02-22T19:15:28  Running build. Project type: OneDeploy
+2026-02-22T19:15:28  Copying the manifest
+2026-02-22T19:15:28  NodeProjectOptimizer Initialized with repository path: /tmp/zipdeploy/extracted and output path: /home/site/wwwroot
+2026-02-22T19:15:28  Optimizing build...
+2026-02-22T19:15:28  Zipping node_modules...
+2026-02-22T19:15:28    Command: /opt/Kudu/Scripts/absoluteTar.sh /tmp/zipdeploy/extracted/node_modules /tmp/zipdeploy/extracted/node_modules.tar.gz
