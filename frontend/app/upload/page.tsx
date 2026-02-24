@@ -58,7 +58,13 @@ export default function UploadPage() {
           }`}
         >
           {imagePreview ? (
-            <img src={imagePreview} alt="Portrait preview" className="h-full w-full rounded-[28px] object-cover" />
+            <div className="flex h-full w-full items-center justify-center">
+              <img
+                src={imagePreview}
+                alt="Portrait preview"
+                className="max-h-[220px] w-auto rounded-[28px] object-cover shadow-lg"
+              />
+            </div>
           ) : (
             <>
               <p className="text-lg font-semibold text-[#1E1B18]">Drop your image here</p>
