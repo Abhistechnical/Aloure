@@ -134,11 +134,11 @@ const computeDeltaE = (labA: LabColor, labB: LabColor) => {
 };
 
 const pigmentSeeds = [
-  { pigment: "Sunlit Yellow", color: "#f7d166", description: "Warmth and luminosity." },
-  { pigment: "Rouge Veil", color: "#e4696d", description: "Rosy undertone that sculpts vitality." },
-  { pigment: "Ivory Veil", color: "#fdf8f2", description: "Softens and adds airiness." },
-  { pigment: "Onyx Depth", color: "#1e1b18", description: "Adds contour and structure." },
-  { pigment: "Blue Balance", color: "#6da4d4", description: "Balances with cool clarity." },
+  { pigment: "Yellow", color: "#f7d166", description: "Warms the mix with couture luminosity." },
+  { pigment: "Red", color: "#e4696d", description: "Rose gold undertones for healthy radiance." },
+  { pigment: "White", color: "#fdf8f2", description: "Lifts and softens for a satin finish." },
+  { pigment: "Black", color: "#1e1b18", description: "Adds contour depth without harshness." },
+  { pigment: "Blue", color: "#6da4d4", description: "Neutralizes warmth for a balanced glow." },
 ];
 
 const buildPigmentFormula = (lab: LabColor): PigmentIngredient[] => {
