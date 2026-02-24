@@ -5,9 +5,37 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useAnalysis } from "../providers/analysis-provider";
 
+const pigmentDefinitions = [
+  {
+    pigment: "Yellow",
+    description:
+      "Pure primary pigment — RGB 255,255,0; RYB 0,255,0; CMYK 0,0,255,0 — no cyan or magenta contamination keeps the hue dedicated to yellow when mixing detergents.",
+  },
+  {
+    pigment: "Red",
+    description:
+      "Pure red channel — RGB 255,0,0; RYB 255,0,0; CMYK 0,255,255,0 — only magenta and yellow inks, so the subtractive mix stays clean without stray blue.",
+  },
+  {
+    pigment: "Blue",
+    description:
+      "True blue primary — RGB 0,0,255; RYB 0,0,255; CMYK 255,255,0,0 — pure cyan+magenta in CMYK to recreate the same blue found on screen.",
+  },
+  {
+    pigment: "Black",
+    description:
+      "Neutral black — RGB 0,0,0; RYB 0,0,0; CMYK 0,0,0,255 — only K ink so it behaves as a true pigment anchor without hue bias.",
+  },
+  {
+    pigment: "White",
+    description:
+      "Neutral white — RGB/RYB 255,255,255; CMYK 0,0,0,0 — no ink at all, so it stays a clean reflective surface across additive and subtractive systems.",
+  },
+];
+
 export default function ResultPage() {
   const router = useRouter();
-  const { result, status, downloadJson, reset } = useAnalysis();
+  const { result, status, downloadJson, downloadPdf, reset } = useAnalysis();
 
   useEffect(() => {
     if (status !== "ready" || !result) {
@@ -77,6 +105,69 @@ export default function ResultPage() {
             >
               View formula details
             </Link>
+          </div>
+        </div>
+      </section>
+      <section className="mt-8 mx-auto w-full max-w-5xl space-y-6">
+        <div className="rounded-3xl border border-[#1E1B18]/10 bg-white/90 p-6 shadow-glass">
+          <p className="text-xs uppercase tracking-[0.35em] text-[#1E1B18]/60">Formula breakdown</p>
+          <div className="mt-5 space-y-4">
+            {result.formula.map((pigment) => (
+              <div key={pigment.pigment} className="flex items-center gap-4">
+                <div
+                  className="h-12 w-12 rounded-2xl border border-[#1E1B18]/20"
+                  style={{ background: pigment.color }}
+                />
+                <div className="flex-1 text-sm">
+                  <p className="font-semibold text-matteCharcoal">{pigment.pigment}</p>
+                  <p className="text-[0.75rem] text-[#1E1B18]/60">{pigment.description}</p>
+                </div>
+                <p className="text-lg font-serif text-matteCharcoal">{pigment.percentage.toFixed(1)}%</p>
+              </div>
+            ))}
+            {!result && (
+              <p className="text-sm text-[#1E1B18]/60">A formula appears after the matching analysis finishes.</p>
+            )}
+          </div>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <button
+              onClick={downloadJson}
+              disabled={!result}
+              className="rounded-full border border-[#1E1B18]/20 px-5 py-3 text-[0.7rem] font-semibold uppercase tracking-[0.35em] text-[#1E1B18]/70 transition hover:border-[#1E1B18] disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              Export JSON
+            </button>
+            <button
+              onClick={downloadPdf}
+              disabled={!result}
+              className="rounded-full border border-[#1E1B18]/20 px-5 py-3 text-[0.7rem] font-semibold uppercase tracking-[0.35em] text-[#1E1B18]/70 transition hover:border-[#1E1B18] disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              Export PDF
+            </button>
+          </div>
+        </div>
+        <div className="rounded-3xl border border-[#1E1B18]/10 bg-[#fff8f2]/80 p-6 text-sm text-[#1E1B18]/70 shadow-glass">
+          <p className="text-xs uppercase tracking-[0.35em] text-[#1E1B18]/60">Confidence & disclaimers</p>
+          <p className="mt-2 text-[0.85rem] text-[#1E1B18]/70">
+            Every analysis recomputes from the uploaded pixels. Different images yield different LAB/HEX values, and no
+            values are reused from memory. Manual tone codes feed the same solver, so everything on this page is live.
+          </p>
+        </div>
+        <div className="rounded-3xl border border-[#1E1B18]/10 bg-white/90 p-6 shadow-glow">
+          <p className="text-xs uppercase tracking-[0.35em] text-[#1E1B18]/60">Color science summary</p>
+          <div className="mt-5 space-y-4 text-[0.85rem] text-[#1E1B18]/70">
+            <p>
+              You are a color-science engine for a pigment-based system: each file is analyzed into pure RGB, RYB, and
+              CMYK coordinates so the subtractive mix mirrors the display tone without cross-channel contamination.
+            </p>
+            <div className="space-y-3">
+              {pigmentDefinitions.map((definition) => (
+                <div key={definition.pigment} className="rounded-2xl border border-[#1E1B18]/10 bg-[#fdf9f5] p-4 text-sm text-[#1E1B18]/70">
+                  <p className="text-[0.65rem] uppercase tracking-[0.3em] text-[#1E1B18]/60">{definition.pigment}</p>
+                  <p className="mt-2 text-sm text-[#1E1B18]">{definition.description}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
